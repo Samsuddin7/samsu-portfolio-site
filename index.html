@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samsuddin Khan - Competitive Programmer & Developer</title>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+        button[type="submit"] {     color: #000000;
+                                    border: none;
+                                    border-radius: 8px;
+                                    padding: 0.9rem;
+                                    font-size: 1rem;
+                                    font-weight: 500;
+                                    cursor: pointer;
+                                    margin-top: 0.5rem;
+                                    transition: background-color 0.3s, transform 0.2s; }
+        button[type="submit"]:hover {   background: var(--accent-green);}
+        .channels {     margin-top: 2rem;  }  
+        .social-links {     display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-wrap: wrap; /* Allows links to wrap on smaller screens */
+                            gap: 1rem; }        
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="code-bracket">&lt;</span>
+                <span class="logo-text">Samsuddin Khan</span>
+                <span class="code-bracket">/&gt;</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#achievements" class="nav-link">Certificate</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="accent-text">Samsuddin Khan</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        <span class="typed-text"></span>
+                        <span class="cursor">|</span>
+                    </p>
+                    <p class="hero-description">
+                        🔥 Passionate Data Scientist in the making with strong skills in Python, SQL, and Machine Learning. 🔥
+                        <br>
+                        ✨ Exploring patterns in data… still wondering how my code works, but excited when it does! 😅
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="Material/Samsu_Resume.pdf" class="btn btn-primary">Resume</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="code-window">
+                        <div class="window-header">
+                            <div class="window-buttons">
+                                <span class="btn-close"></span>
+                                <span class="btn-minimize"></span>
+                                <span class="btn-maximize"></span>
+                            </div>
+                            <span class="window-title">competitive_programming.py</span>
+                        </div>
+                        <div class="code-content">
+    <pre><code><span class="code-comment"># Solving problems, one algorithm at a time</span>
+    <span class="code-keyword">import</span> <span class="code-string">algorithm</span>  <span class="code-comment"># hypothetical module for algorithms</span>
+
+    <span class="code-keyword">def</span> <span class="code-function">main</span>():
+        passion = <span class="code-string">"competitive programming"</span>
+        <span class="code-keyword">while</span> <span class="code-keyword">True</span>:
+            solve_problems()
+            learn_algorithms()
+            <span class="code-keyword">if</span> contest_available():
+            participate()
+
+    <span class="code-keyword">if</span> __name__ == <span class="code-string">"__main__"</span>:
+        main()
+                            </code></pre>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                       Hey, I’m Samsuddin Khan — a Computer Science graduate who loves exploring data, building smart systems, and solving problems one query (or bug) at a time. 
+                       I’m into data science, machine learning basics, and full-stack Python development — basically anything that mixes logic, creativity, and a little trial-and-error magic.
+                    </p>
+                    <p>Skilled in Python, SQL, HTML5, CSS3, JavaScript, Tailwind, and Git/GitHub. I’ve also worked with data preprocessing, analytics, and recommendation systems, and 
+                        I’m currently diving deeper into full-stack Python and advanced data science — because numbers, models, and insights feel way cooler when they actually tell a story. 
+                        I’ve learned Full Stack Python Development from QSpiders Institute and learned a Data Analyst course from Coursera to strengthen my practical knowledge.  </p>
+                    <p>I’ve built projects like a Book Recommendation System and an Animal Intrusion Detection System using ESP32. I enjoy playing with data structures & algorithms, 
+                        automating stuff with Python, and pretending that cleaning datasets is a fun weekend activity. When not coding, 
+                        you’ll find me playing chess, football, or volleyball — because strategy and teamwork aren’t just for computers.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">200+</span>
+                            <span class="stat-label">Problems Solved</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Contests Participated</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="profile-card">
+                        <div class="profile-header">
+                            <div class="profile-avatar">
+                                <img style="height: 200px; border-radius: 50%;" class="abc" src="Material/me.jpeg" alt="">
+                            </div>
+                            <h3>Samsuddin Khan</h3>
+                            <!-- <p>Competitive Programmer</p> -->
+                        </div>
+                        <div class="profile-info">
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Maharashtra</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>Computer Science</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-code"></i>
+                        Programming Languages
+                    </h3>
+                    <div class="skills-list">
+                        
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div> 
+                        <div class="skill-item">
+                            <span class="skill-name">SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">C++</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="65%"></div>
+                            </div>
+                        </div>                       
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-project-diagram"></i>
+                        Algorithms & DS
+                    </h3>
+                    <div class="skills-tags">
+                        <span class="skill-tag">Dynamic Programming</span>
+                        <span class="skill-tag">Graph Algorithms</span>
+                        <span class="skill-tag">Tree Structures</span>
+                        <span class="skill-tag">Greedy Algorithms</span>
+                        <span class="skill-tag">Number Theory</span>
+                        <span class="skill-tag">String Algorithms</span>
+                        <span class="skill-tag">Geometry</span>
+                        <span class="skill-tag">Binary Search</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-tools"></i>
+                        Technologies & Tools
+                    </h3>
+                    <div class="skills-tags">
+                        <!-- <span class="skill-tag">React</span> -->
+                        <!-- <span class="skill-tag">Node.js</span> -->
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Matplotlib</span>
+                        <span class="skill-tag"> pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Canvas</span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                        <div class="profile-header">
+                            <div class="profile-avatar">
+                                <img style="height: 200px; border-radius: 20%;" class="abc" src="Material/Collage Logo.png" alt="">
+                            </div>
+                            <h3>Bsc Computer Science</h3>
+                            <p>Year of passing 2025</p>
+                        </div>
+                        <div class="profile-info">
+                            <div class="info-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>Sonopant Dandekar Shikshan Mandali (SDSM) College</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Maharashtra</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-star"></i>
+                                <span>8.62 CGPA</span>
+                            </div>
+                        </div>
+                </div>
+                
+                <div class="skill-category">
+                        <div class="profile-header">
+                            <div class="profile-avatar">
+                                <img style="height: 200px; border-radius: 20%;" class="abc" src="Material/School Logo.png" alt="">
+                            </div>
+                            <h3>Higher Secondary School Certificate (HSC)</h3>
+                            <p>Year of passing 2022</p>
+                        </div>
+                        <div class="profile-info">
+                            <div class="info-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>Shri Raghubir High School & Junior College</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Maharashtra</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-star"></i>
+                                <span>75 % </span>
+                            </div>
+                        </div>
+                </div>
+                
+                <div class="skill-category">
+                        <div class="profile-header">
+                            <div class="profile-avatar">
+                                <img style="height: 200px; border-radius: 20%;" class="abc" src="Material/School Logo.png" alt="">
+                            </div>
+                            <h3> Secondary School Certificate (SSC)</h3>
+                            <p>Year of passing 2020</p>
+                        </div>
+                        <div class="profile-info">
+                            <div class="info-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>Shri Raghubir High School & Junior College</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Maharashtra</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-star"></i>
+                                <span>84.80 % </span>
+                            </div>
+                        </div>
+                </div>                
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Samsuddin11/Book-Recommendation-System" class="project-link"><i class="fab fa-github"></i></a>
+                            <a href="https://book-recommendation-system-bwa7.onrender.com" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Book Recommendation System</h3>
+                    <p class="project-description">
+                        A system that helps users discover books based on their reading preferences. 
+                        It uses Python with libraries like NumPy and Pandas for data preprocessing and 
+                        filtering, making it easier for readers to find books that match their interests.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">NumPy</span>
+                        <span class="tech-tag">Pandas</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fa fa-cogs"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Samsuddin11/IoT-Based-Animal-Intrusion-Alert" class="project-link"><i class="fab fa-github"></i></a>
+                            <a href="https://github.com/Samsuddin11/IoT-Based-Animal-Intrusion-Alert" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">FarmShield: IoT-Based Animal Intrusion Alert</h3>
+                    <p class="project-description">
+                        An IoT-Intrusion solution built using ESP32, ultrasonic sensor, PIR sensor, and buzzer. 
+                        It detects unwanted animal intrusions on farmland and alerts the farmer, 
+                        ensuring crop protection and reducing manual monitoring.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">API</span>
+                        <span class="tech-tag">Animation</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fa fa-address-card"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Samsuddin11/Portfolio-Website" class="project-link"><i class="fab fa-github"></i></a>
+                            <a href="https://samsuddin11.github.io/Portfolio-Website/" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Samsuddin's Portfolio</h3>
+                    <p class="project-description">
+                        A personal portfolio website designed to showcase my skills, projects, and career journey. 
+                        Built with modern web technologies like HTML, CSS, JS, it represents my work and professional identity online.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">API</span>
+                        <span class="tech-tag">Animation</span>
+                        <span class="tech-tag">Chart.js </span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fa fa-line-chart"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Prachi9506/career-counselling-" class="project-link"><i class="fab fa-github"></i></a>
+                            <a href="https://prachi9506.github.io/career-counselling-/" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Amazon Sales Analysis Dashboard</h3>
+                    <p class="project-description">
+                        An interactive data analytics project where I analyzed Amazon sales data to uncover insights 
+                        such as revenue trends, product performance, and customer behavior. Built with Power BI and DAX Query, 
+                        the dashboard makes complex data easy to understand for decision-making.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Excel</span>
+                        <span class="tech-tag">Power BI </span>
+                        <span class="tech-tag">Chart.js </span>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">Competitive Programming Achievements</h2>
+            <br>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Preparing Data for Analysis with Microsoft Excel</h3>
+                    <p>Microsoft</p>
+                    <span class="achievement-date">Jan 2025</span><br>
+                    <a href="https://www.coursera.org/account/accomplishments/verify/DWAWKOJ95C1J" class="btn btn-secondary" style="margin-top: 1rem; border-color: var(--accent-green);">View Certificate</a>
+                </div>
+                
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Harnessing the Power of Data with Power BI</h3>
+                    <p>Microsoft</p>
+                    <span class="achievement-date">Feb 2025</span><br>
+                    <a href="https://www.coursera.org/account/accomplishments/verify/4KEAEVAIS94H" class="btn btn-secondary" style="margin-top: 1rem; border-color: var(--accent-green);">View Certificate</a>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>SQL for Data Science</h3>
+                    <p>University of California, Davis</p>
+                    <span class="achievement-date">Jan 2025</span><br>
+                    <a href="https://www.coursera.org/account/accomplishments/verify/VSMJLZTICQB3" class="btn btn-secondary" style="margin-top: 1rem; border-color: var(--accent-green);">View Certificate</a>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Python Basics</h3>
+                    <p>University of Michigan</p>
+                    <span class="achievement-date">Jan 2025</span><br>
+                    <a href="https://www.coursera.org/account/accomplishments/verify/KRRTVZK75EMP" class="btn btn-secondary" style="margin-top: 1rem; border-color: var(--accent-green);">View Certificate</a>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3></h3>
+                    <p>Microsoft</p>
+                    <span class="achievement-date">Jan 2025</span><br>
+                    <a href="" class="btn btn-secondary" style="margin-top: 1rem; border-color: var(--accent-green);">View Certificate</a>
+                </div>
+
+                <!-- <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3></h3>
+                    <p>Microsoft</p>
+                    <span class="achievement-date">Jan 2025</span><br>
+                    <a href="" class="btn btn-secondary" style="margin-top: 1rem; border-color: var(--accent-green);">View Certificate</a>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect!</h3>
+                    <p>
+                        I'm always excited to discuss new opportunities, collaborate on interesting projects, 
+                        or just chat about algorithms and competitive programming.
+                    </p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>samsuddinsci@gmail.com</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-linkedin"></i>
+                            <span>https://www.linkedin.com/in/samsuddin11/</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-github"></i>
+                            <span>https://github.com/Samsuddin11</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-code"></i>
+                            <!-- <span>https://codeforces.com/profile/prachisharma9506</span> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- <button type="" class="btn btn-primary">
+                            <span><a href="./contact.html">Send Message</a></span>
+                            
+                            <i class="fas fa-paper-plane"></i>
+                </button> -->
+
+                <div class="achievement-card">
+                    <h2>Contact Me</h2>
+                    <br>
+                    <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                         <input type="hidden" name="access_key" value="76cdab05-10db-4d0c-9363-b6f75d1bfdbb">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit">Submit</button>
+                        <br>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; Samsuddin Khan </p>
+                    <!-- <p>&copy; Samsuddin Khan, Crafted with <i class="fas fa-heart"></i> and lots of coffee.</p> -->
+                     <p>Feel free to reach out to me through any of the following channels</p>
+                </div>
+                <div class="footer-social">                    
+                    <a href="https://www.linkedin.com/in/samsuddin11/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Samsuddin11" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/samsu.khan_/" class="social-link"><i class="fab fa-instagram"></i> </a>
+                    <a href="https://x.com/Samsu78_Khan" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fas fa-code"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="./main.js"></script>
+</body>
+</html>
